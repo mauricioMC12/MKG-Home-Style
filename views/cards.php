@@ -10,7 +10,7 @@ include("../app/helpers/header_template.php");
             <div class="card">
                 <div class="card-image">
                     <img src="../resources/img/cards/image01.jpg">
-                    <span class="card-title">Card Title</span>
+                    <a href=""><span class="card-title transparent">Usuario</span></a>
                 </div>
                 <div class="card-content">
                     <p>I am a very simple card. I am good at containing small bits of information.

@@ -15,4 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
     //Se inicializa el componente collapsible
     var elems = document.querySelectorAll('.collapsible');
     var instances = M.Collapsible.init(elems);
+    //Se inicaliza el componente dropdown
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems,);
+
 });
