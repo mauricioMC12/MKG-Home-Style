@@ -1,6 +1,7 @@
 <?php
 //Se incluye la plantilla del encabezado para la página web
-include("../app/helpers/header_template.php");
+include('../../app/helpers/public_template.php');
+Public_template::headerPublic('Bienvenido');
 ?>
 
 <!--Componente slider con una altura de 400 píxeles e imágenes de 1600x400 píxeles-->
@@ -28,7 +29,7 @@ include("../app/helpers/header_template.php");
             </div>
         </li>
         <li>
-            <img src="../resources/img/slider/image04.png">
+            <img src="">
             <div class="caption center-align">
                 <h3>This is our big Tagline!</h3>
                 <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -55,5 +56,5 @@ include("../app/helpers/header_template.php");
 
 <?php
 //Se incluye la plantilla del pie para la página web
-include("../app/helpers/footer_template.php");
+public_template::footer_public('index_public.js');
 ?>

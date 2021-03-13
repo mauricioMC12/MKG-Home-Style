@@ -1,6 +1,6 @@
 <?php
 //Se incluye la plantilla del encabezado para la página web
-include("../app/helpers/header_template.php");
+include("../../app/helpers/header_template.php");
 ?>
 
 <!--Componente slider con una altura de 400 píxeles e imágenes de 1600x400 píxeles-->
@@ -55,5 +55,5 @@ include("../app/helpers/header_template.php");
 
 <?php
 //Se incluye la plantilla del pie para la página web
-include("../app/helpers/footer_template.php");
+include("../../app/helpers/footer_template.php");
 ?>

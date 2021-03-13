@@ -27,7 +27,7 @@
         </div>
     </footer>
     <!--Importación de archivos JavaScript al final del cuerpo para una carga optimizada-->
-    <script type="text/javascript" src="../resources/js/materialize.min.js"></script>
-    <script type="text/javascript" src="../app/controllers/initialization.js"></script>
+    <script type="text/javascript" src="../../resources/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../../app/controllers/initialization.js"></script>
 </body>
 </html>
