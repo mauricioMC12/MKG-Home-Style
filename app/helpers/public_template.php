@@ -47,7 +47,7 @@ class Public_template{
                                 <li><a href=""><i class="Medium material-icons black-text">search</i></li></a>
                                 <li><a href=""><i class="Medium material-icons black-text">account_circle</i></li></a>
                                 <li><a href=""><i class="Medium material-icons black-text">favorite</i></li></a>
-                                <li><a href=""><i class="Medium material-icons black-text">local_grocery_store</i></li></a>
+                                <li><a href="carrito.php"><i class="Medium material-icons black-text">local_grocery_store</i></li></a>
                             </ul>
                         </div>
                     </nav>

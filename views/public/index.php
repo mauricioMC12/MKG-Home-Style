@@ -38,21 +38,6 @@ Public_template::headerPublic('Bienvenido');
     </ul>
 </div>
 
-<!--Disparador del modal-->
-<p class="center">
-    <a class="waves-effect waves-light btn modal-trigger" href="#modal">Modal</a>
-</p>
-
-<!--Estructura del modal-->
-<div id="modal" class="modal">
-    <div class="modal-content">
-        <h4>Modal Header</h4>
-        <p>A bunch of text</p>
-    </div>
-    <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-    </div>
-</div>
 
 <?php
 //Se incluye la plantilla del pie para la página web

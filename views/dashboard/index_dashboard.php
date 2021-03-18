@@ -1,59 +1,52 @@
 <?php
 //Se incluye la plantilla del encabezado para la página web
-include("../../app/helpers/header_template.php");
+include('../../app/helpers/dashboard_template.php');
+Dashboard_template::headerDashboard('Bienvenido','../../resources/css/dashboard/index.css');
 ?>
 
-<!--Componente slider con una altura de 400 píxeles e imágenes de 1600x400 píxeles-->
-<div class="slider">
-    <ul class="slides">
-        <li>
-            <img src=" ">
-            <div class="caption center-align">
-                <h3>This is our big Tagline!</h3>
-                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-        </li>
-        <li>
-            <img src=" ">
-            <div class="caption left-align">
-                <h3>Left Aligned Caption</h3>
-                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-        </li>
-        <li>
-            <img src="">
-            <div class="caption right-align">
-                <h3>Right Aligned Caption</h3>
-                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-        </li>
-        <li>
-            <img src="../resources/img/slider/image04.png">
-            <div class="caption center-align">
-                <h3>This is our big Tagline!</h3>
-                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-            </div>
-        </li>
-    </ul>
+<div class="container">
+<div class="row">
+  <div class="col s6 m6 l3">
+    <div class="card">
+      <div class="card-image blue-grey lighten-4">
+        <a href="usuarios.php"><img src="../../resources/img/Menu/Usuario3.png"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col s6 m6 l3">
+    <div class="card">
+      <div class="card-image blue-grey lighten-4">
+        <a href="proveedores.php"><img src="../../resources/img/Menu/Proveedores.png"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col s6 m6 l3">
+    <div class="card ">
+      <div class="card-image  blue-grey lighten-4">
+        <a href="inventario.php"><img src="../../resources/img/Menu/Inventario.png"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col s6 m6 l3">
+    <div class="card">
+      <div class="card-image blue-grey lighten-4">
+        <a href="pedidos.php"><img src="../../resources/img/Menu/Pedido.png"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col s6 m6 l3 ">
+    <div class="card">
+      <div class="card-image blue-grey lighten-4">
+        <a href=""><img src="../../resources/img/Menu/Factura.png"></a>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 
-<!--Disparador del modal-->
-<p class="center">
-    <a class="waves-effect waves-light btn modal-trigger" href="#modal">Modal</a>
-</p>
 
-<!--Estructura del modal-->
-<div id="modal" class="modal">
-    <div class="modal-content">
-        <h4>Modal Header</h4>
-        <p>A bunch of text</p>
-    </div>
-    <div class="modal-footer">
-        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-    </div>
-</div>
 
 <?php
 //Se incluye la plantilla del pie para la página web
-include("../../app/helpers/footer_template.php");
+Dashboard_template::footerDashboard('index_dashboard.js');
 ?>
